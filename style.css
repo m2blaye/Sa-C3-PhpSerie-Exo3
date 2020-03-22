@@ -1,0 +1,52 @@
+body{
+    background-color: #eee;
+    font-family:"trebuchet ms",sans-serif;
+    font-size:90%;
+}
+#contener{
+    width: 90%;
+    margin: auto;
+    
+}
+#gache,#droite{
+    padding:2%;   
+    margin-left: 10px;
+    width: 42%;
+    float: left;
+    background-color: #FAFAFA;
+}
+
+legend {
+    color:blue;
+    font-weight:bold
+}
+
+input{
+    background-color:rgb(176, 195, 221);
+    padding:3px;
+    border:1px solid #F5C5C5;
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left:5px;
+    box-shadow:1px 1px 1px #F5C5CF;
+    cursor:pointer;
+}
+
+#no_int{
+    color: red;
+    font-weight:bold;
+}
+label{
+    display: block;
+    width: 75px;
+    float: left;
+}
+
+.erreur{
+    background-color: red;
+}
